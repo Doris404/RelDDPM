@@ -1,0 +1,135 @@
+{
+    "name": "apartment",
+    "column_num": 14,
+    "train_row_num": 69728,
+    "test_row_num": 34344,
+    "total_row_num": 104072,
+    "train_file": "./datasets/apartment/train.csv",
+    "test_file": "./datasets/apartment/test.csv",
+    "task": null,
+    "columns": [
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [
+                "P1",
+                "P3",
+                "P8",
+                "P6",
+                "P5",
+                "P24",
+                "P9",
+                "P31",
+                "P2",
+                "P4",
+                "P17",
+                "P15",
+                "P11",
+                "P20",
+                "P7",
+                "P23",
+                "P12",
+                "P10",
+                "P19",
+                "P16",
+                "P38",
+                "P25",
+                "P29",
+                "P14",
+                "P18",
+                "P34",
+                "P27",
+                "P33",
+                "P42",
+                "P28",
+                "P26",
+                "P13",
+                "P30",
+                "P35",
+                "P22",
+                "P32"
+            ],
+            "column_type": "string"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [
+                "R1",
+                "R2",
+                "R3"
+            ],
+            "column_type": "string"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5",
+                "C9",
+                "C7",
+                "C8",
+                "C11",
+                "C10",
+                "C13"
+            ],
+            "column_type": "string"
+        },
+        {
+            "column_name": "apartment",
+            "column_value": [],
+            "column_type": "int"
+        }
+    ]
+}

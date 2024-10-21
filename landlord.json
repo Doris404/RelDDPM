@@ -1,0 +1,42 @@
+{
+    "name": "landlord",
+    "column_num": 6,
+    "train_row_num": 45584,
+    "test_row_num": 22453,
+    "total_row_num": 68037,
+    "train_file": "./datasets/landlord/train.csv",
+    "test_file": "./datasets/landlord/test.csv",
+    "task": null,
+    "columns": [
+        {
+            "column_name": "landlord",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "landlord",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "landlord",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "landlord",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "landlord",
+            "column_value": [],
+            "column_type": "int"
+        },
+        {
+            "column_name": "landlord",
+            "column_value": [],
+            "column_type": "int"
+        }
+    ]
+}
