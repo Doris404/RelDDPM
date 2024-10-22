@@ -1,30 +1,26 @@
 {
     "name": "airbnb",
-    "column_num": 27,
+    "column_num": 26,
     "train_row_num": 69728,
     "test_row_num": 34344,
     "total_row_num": 104072,
     "train_file": "./datasets/airbnb/train.csv",
     "test_file": "./datasets/airbnb/test.csv",
     "task": null,
+    "label_column": null,
     "columns": [
         {
-            "column_name": "airbnb",
+            "column_name": "listings.id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.host_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
-            "column_value": [],
-            "column_type": "int"
-        },
-        {
-            "column_name": "airbnb",
+            "column_name": "listings.property_type",
             "column_value": [
                 "P1",
                 "P3",
@@ -66,7 +62,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.room_type",
             "column_value": [
                 "R1",
                 "R2",
@@ -75,47 +71,47 @@
             "column_type": "string"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.accommodates",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.price",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.security_deposit",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.cleaning_fee",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.guests_included",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.extra_people",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.minimum_nights",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.availability_365",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.cancellation_policy",
             "column_value": [
                 "C1",
                 "C2",
@@ -132,47 +128,47 @@
             "column_type": "string"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "listings.neighborhood_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "hosts.host_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "hosts.host_since",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "hosts.host_response_time",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "hosts.host_response_rate",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "hosts.host_neighbourhood",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "hosts.tf_listings.host_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "neighborhoods.neighbourhood_cleansed",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "neighborhoods.neighbourhood_group_cleansed",
             "column_value": [
                 "C0",
                 "C46",
@@ -246,7 +242,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "neighborhoods.state",
             "column_value": [
                 "S1",
                 "S20",
@@ -657,7 +653,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "neighborhoods.country",
             "column_value": [
                 "C1",
                 "C2",
@@ -680,12 +676,12 @@
             "column_type": "string"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "neighborhoods.neighborhood_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "airbnb",
+            "column_name": "neighborhoods.tf_listings.neighborhood_id",
             "column_value": [],
             "column_type": "int"
         }

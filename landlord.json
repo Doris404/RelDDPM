@@ -7,34 +7,35 @@
     "train_file": "./datasets/landlord/train.csv",
     "test_file": "./datasets/landlord/test.csv",
     "task": null,
+    "label_column": null,
     "columns": [
         {
-            "column_name": "landlord",
+            "column_name": "hosts.host_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "landlord",
+            "column_name": "hosts.host_since",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "landlord",
+            "column_name": "hosts.host_response_time",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "landlord",
+            "column_name": "hosts.host_response_rate",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "landlord",
+            "column_name": "hosts.host_neighbourhood",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "landlord",
+            "column_name": "hosts.tf_listings.host_id",
             "column_value": [],
             "column_type": "int"
         }

@@ -7,14 +7,15 @@
     "train_file": "./datasets/neighborhoods/train.csv",
     "test_file": "./datasets/neighborhoods/test.csv",
     "task": null,
+    "label_column": null,
     "columns": [
         {
-            "column_name": "neighborhoods",
+            "column_name": "neighborhoods.neighbourhood_cleansed",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "neighborhoods",
+            "column_name": "neighborhoods.neighbourhood_group_cleansed",
             "column_value": [
                 "C0",
                 "C46",
@@ -88,7 +89,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "neighborhoods",
+            "column_name": "neighborhoods.state",
             "column_value": [
                 "S1",
                 "S20",
@@ -499,7 +500,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "neighborhoods",
+            "column_name": "neighborhoods.country",
             "column_value": [
                 "C1",
                 "C2",
@@ -522,12 +523,12 @@
             "column_type": "string"
         },
         {
-            "column_name": "neighborhoods",
+            "column_name": "neighborhoods.neighborhood_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "neighborhoods",
+            "column_name": "neighborhoods.tf_listings.neighborhood_id",
             "column_value": [],
             "column_type": "int"
         }

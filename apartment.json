@@ -7,19 +7,20 @@
     "train_file": "./datasets/apartment/train.csv",
     "test_file": "./datasets/apartment/test.csv",
     "task": null,
+    "label_column": null,
     "columns": [
         {
-            "column_name": "apartment",
+            "column_name": "listings.id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.host_id",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.property_type",
             "column_value": [
                 "P1",
                 "P3",
@@ -61,7 +62,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.room_type",
             "column_value": [
                 "R1",
                 "R2",
@@ -70,47 +71,47 @@
             "column_type": "string"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.accommodates",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.price",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.security_deposit",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.cleaning_fee",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.guests_included",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.extra_people",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.minimum_nights",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.availability_365",
             "column_value": [],
             "column_type": "int"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.cancellation_policy",
             "column_value": [
                 "C1",
                 "C2",
@@ -127,7 +128,7 @@
             "column_type": "string"
         },
         {
-            "column_name": "apartment",
+            "column_name": "listings.neighborhood_id",
             "column_value": [],
             "column_type": "int"
         }
